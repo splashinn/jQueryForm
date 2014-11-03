@@ -23,4 +23,6 @@ Pretty simple, just pass in..
 * Selector string where you want the status message to go
 * The submit selector. This element will actually submit the form 
 
+## Copyright
+
 Copyright (c) 2014 Kyle Maune.
