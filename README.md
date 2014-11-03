@@ -22,3 +22,5 @@ Pretty simple, just pass in..
 * The form fields all encapsulated in one string seperated by commas in the correct order of validation rules.
 * Selector string where you want the status message to go
 * The submit selector. This element will actually submit the form 
+
+Copyright (c) 2014 Kyle Maune.
