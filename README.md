@@ -1,6 +1,10 @@
 # jQuery Form
 
-### Create New Form
+## Description
+
+Simple jQuery plugin for a form
+
+### Creating A New Form
 ```JavaScript
 var exampleForm = new Form({
 	url: mailUrl,
