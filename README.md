@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple jQuery plugin for a form. I wrote this to better understand plugins.
+Simple jQuery plugin for a form. I wrote this to better understand plugins
 
 ### Creating A New Form
 ```JavaScript
