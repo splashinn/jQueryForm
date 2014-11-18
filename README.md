@@ -1,4 +1,4 @@
-# jQuery Form
+# jQuery Form Plugin
 
 ## Description
 
