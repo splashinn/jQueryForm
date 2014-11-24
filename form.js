@@ -1,5 +1,5 @@
 // form.js
-// splashinn
+// splashinn (c) 2014
 
 var Form = function(options) {
 
