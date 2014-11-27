@@ -16,7 +16,7 @@ var exampleForm = new Form({
 exampleForm.init()
 ```
 
-Pass in..
+Pass in:
 
 * The url to send the form data too
 * The form fields all encapsulated in one string seperated by commas in the correct order of validation rules.
