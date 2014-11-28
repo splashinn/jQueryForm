@@ -1,7 +1,5 @@
 # jQuery Form Plugin
 
-## Description
-
 Simple jQuery plugin for a form
 
 ### Creating A New Form
