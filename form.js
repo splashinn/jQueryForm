@@ -22,7 +22,6 @@ var Form = function(options) {
         this.rFields.required
     ];
     this.errors = ['Please enter a valid name.', 'Please enter a valid email address.', 'You must enter a subject.', 'No message? But I wanted one :('];
-
 }
 
 Form.prototype.init = function init() {
@@ -50,12 +49,10 @@ Form.prototype.process = function process(e) {
             this.update(this.errors[i], true);
             filled = false;
             return false;
-
         }
     }, this));
 
     filled && this.submit($(this.$form).serialize());
-
 };
 
 Form.prototype.update = function update(message, isError) {
@@ -68,10 +65,7 @@ Form.prototype.update = function update(message, isError) {
         setTimeout($.proxy(function() {
             this.$status.removeClass('shake');
         }, this), 500);
-
-    }
-    else {
-
+    } else {
         this.$status.fadeOut();
 
         setTimeout($.proxy(function() {
@@ -81,17 +75,13 @@ Form.prototype.update = function update(message, isError) {
             if (isError) {
                 this.$status.removeClass('shake')
                     .addClass('error');
-            }
-            else {
+            } else {
                 this.$status.removeClass('error info')
                     .addClass('success');
             }
         }, this), 500);
-
     }
-
     return this;
-
 };
 
 Form.prototype.submit = function submit(data) {
@@ -111,7 +101,6 @@ Form.prototype.submit = function submit(data) {
                 left: '-=500px',
                 opacity: 0,
             }, 300);
-
         }, this)
     });
 };
