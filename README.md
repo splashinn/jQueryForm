@@ -1,4 +1,4 @@
-# jQuery Form Plugin
+## jQuery Form Plugin
 
 Simple jQuery plugin for a form.
 
